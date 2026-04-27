@@ -12,7 +12,7 @@ const getTodos = async (req, res) => {
 const addTodo = async (req, res) => {
   try {
     const { text } = req.body;
-    if (!text || text.trim().length < 3) return res.status(400).json({ error: "Task too short" });
+    if (!text || text.trim().length < 1) return res.status(400).json({ error: "Task too short" });
 
     const todo = new Todo({ text });
     await todo.save();
