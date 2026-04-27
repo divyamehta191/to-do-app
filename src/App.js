@@ -10,7 +10,7 @@ function App() {
   });
 
   const [filter, setFilter] = useState("all");
-  const BASE_URL = "http://localhost:5000/api/todos";
+  const BASE_URL = "https://to-do-app-juoj.onrender.com/api/todos";
 
   useEffect(() => {
     const fetchTodos = async () => {
