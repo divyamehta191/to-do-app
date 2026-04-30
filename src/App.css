@@ -168,6 +168,6 @@ button:hover {
   .todo-container{padding:22px;}
   .title{font-size:2rem;}
   .todo-form{flex-direction:column;}
-  button{width:100%;}
+  button{width:30%;}
 }
 
